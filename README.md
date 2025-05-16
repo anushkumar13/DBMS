@@ -17,20 +17,25 @@ This repository is dedicated to documenting and understanding all core concepts 
 
 ##  Topics Covered
 
-- What is Data and Database?
-- DBMS vs File System
-- DBMS Architecture (1-tier, 2-tier, 3-tier)
-- Data Models (Hierarchical, Network, Relational etc.)
-- Schema vs Instance
-- Keys in DBMS (Primary, Candidate, Foreign, Super etc.)
-- ER Diagrams & ER to Relational Mapping
-- Normalization (1NF, 2NF, 3NF, BCNF)
-- Relational Algebra & Relational Calculus
-- Transactions & Concurrency Control
-- Indexing & Hashing
-- SQL Concepts (DDL, DML, DCL, TCL)
-
->  **Note:** Har topic ek alag file mein detail se likha gaya hai with examples.
+1. [Introduction to DBMS](./01_Introduction_to_DBMS.md)
+2. [DBMS Architecture](./02_DBMS_Architecture.md)
+3. [Entity Relationship Model](./03_Entity_Relationship_Model.md)
+1. [Extended ER Features](./04_Extended_ER_Features.md)
+1. [Steps to Make ER Diagram](./05_Steps_to_Make_ER_Diagram.md)
+1. [Relational Model](./06_Relational_Model.md)
+1. [Transform ER Model to Relational Model](./07_Transform_ER_Model_to_Relational_Model.md)
+1. [SQL](./08_SQL.md)
+1. [Normalisation](./09_Normalisation.md)
+1. [Transaction](./10_Transaction.md)
+1. [Atomicity and Durability](./11_Atomicity_and_Durability.md)
+1. [Indexing](./12_Indexing.md)
+1. [NoSQL](./13_NoSQL.md)
+1. [Types of Databases](./14_Types_of_Databases.md)
+1. [Clustering](./15_Clustering.md)
+1. [Partitioning & Sharding](./16_Partitioning_&_Sharding.md)
+1. [Database Scaling Patterns](./17_Database_Scaling_Patterns.md)
+1. [CAP Theorem](./18_CAP_Theorem.md)
+1. [Master Slave](./19_Master_Slave.md)
 
 ---
 
