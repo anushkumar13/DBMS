@@ -35,5 +35,6 @@ When a request is made, it gets distributed among the cluster's multiple servers
 **Summary:**  
 Database clustering is the process of linking multiple servers to work as one database system. Its goals are to replicate data, balance the load, and improve availability and reliability. Clustering reduces data loss risk, makes handling traffic easier, and minimizes downtime. If one server fails, other servers in the cluster continue handling requests seamlessly.
 
+
 ---
 
