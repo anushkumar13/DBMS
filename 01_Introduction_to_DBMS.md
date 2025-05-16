@@ -75,48 +75,48 @@ Data is a **raw material** consisting of unprocessed facts and figures. When it 
 
 ---
 
-# Database kya hota hai?
+# What is a Database?
 
-Agar main ek simple analogy doon, toh samajh: **Database** ek digital locker ki tarah hota hai, jahan pe tum apna data safe and organized tareeke se store kar sakte ho. Jaise ek locker mein tum apne important documents ko rakhte ho, waise hi database mein tum apne data ko rakhte ho, taaki jab chaaho tab usse easily access kar sako.
-
----
-
-##  Database ka Definition:
-
-**Database** ek systematic collection hota hai data ka, jismein data ko store, manage, aur retrieve kiya jaata hai efficiently. Iska main purpose hota hai ki data ko securely store kiya jaaye aur easy access ho sake jab zaroorat ho.
+If I give you a simple analogy, think of a **Database** as a digital locker where you can store your data in a safe and organized manner. Just like you keep your important documents in a locker, similarly, you store your data in a database so that you can easily access it whenever needed.
 
 ---
 
-##  Real-Life Analogy:
+## Definition of Database:
 
-Socho, tumhare paas ek **library** hai, jismein kai saare books hain:
+A **Database** is a systematic collection of data, where the data is stored, managed, and retrieved efficiently. Its main purpose is to store data securely and provide easy access whenever required.
 
-* Agar tumhe ek specific book dhoondhni ho, toh library mein kuch organization hona chahiye.
+---
+
+## Real-Life Analogy:
+
+Imagine you have a **library** with many books:
+
+* If you want to find a specific book, the library must be organized.
 
 **Library = Database**
 **Books = Data**
 **Organized Sections = Tables, Rows, Columns (DBMS)**
 
-Jaise library mein books categorize hoti hain (title, author, genre ke basis pe), waise hi database mein data organize hota hai.
+Just like books in a library are categorized (by title, author, genre), data in a database is also organized.
 
 ---
 
-##  Database ka Structure:
+## Structure of a Database:
 
-###  Tables:
+### Tables:
 
-Database ka basic structure **tables** hoti hain.
+The basic structure of a database is **tables**.
 
-###  Columns:
+### Columns:
 
-Data ke specific attributes ko represent karte hain.
+They represent specific attributes of the data.
 **Example:** Name, Age, Roll No
 
-###  Rows:
+### Rows:
 
-Har individual record ko represent karte hain.
+They represent individual records.
 
-####  Example of Students Table:
+#### Example of Students Table:
 
 | Roll No | Name  | Age | Department |
 | ------- | ----- | --- | ---------- |
@@ -124,284 +124,64 @@ Har individual record ko represent karte hain.
 | 102     | Priya | 22  | ECE        |
 | 103     | Amit  | 21  | IT         |
 
-###  Primary Key:
+### Primary Key:
 
-Har table mein ek unique identifier hota hai, jise **Primary Key** kehte hain. Jaise upar Roll No.
+Every table has a unique identifier called the **Primary Key**, like Roll No in the above example.
 
-###  Foreign Key:
+### Foreign Key:
 
-Do tables ke beech relationship banane ke liye **Foreign Key** ka use hota hai. Jaise ek table mein students aur doosre mein courses ho.
+To establish relationships between two tables, we use a **Foreign Key**. For example, one table contains students and another contains courses.
 
 ---
 
-##  Types of Databases:
+## Types of Databases:
 
 ### 1. **Relational Database (RDBMS):**
 
-* Data ko **tables** mein store karta hai.
-* **SQL (Structured Query Language)** ka use hota hai.
+* Stores data in **tables**.
+* Uses **SQL (Structured Query Language)**.
 * Examples: MySQL, PostgreSQL, Oracle
 
 ### 2. **Non-Relational (NoSQL) Database:**
 
-* Structured tables ka use nahi karta.
-* Flexible & scalable hota hai.
-* Data ko documents ya key-value pairs ke form mein store karta hai.
+* Does not use structured tables.
+* It is flexible and scalable.
+* Stores data in the form of documents or key-value pairs.
 * Examples: MongoDB, CouchDB, Cassandra
 
 ---
 
-##  Why Database Important Hota Hai?
+## Why is a Database Important?
 
-###  Data Organization:
+### Data Organization:
 
-Systematically data ko organize karta hai taaki access easy ho.
+It organizes data systematically so that accessing it becomes easy.
 
-###  Data Security:
+### Data Security:
 
-Access control, encryption aur authentication provide karta hai.
+It provides access control, encryption, and authentication.
 
-###  Efficient Retrieval:
+### Efficient Retrieval:
 
-Query ke through fast aur easy data access milta hai.
+It allows fast and easy data access through queries.
 
-###  Concurrency:
+### Concurrency:
 
-Multiple users ek saath database ko access kar sakte hain bina data corrupt kiye.
+Multiple users can access the database simultaneously without corrupting the data.
 
-###  Backup & Recovery:
+### Backup & Recovery:
 
-Disaster ke case mein data restore karne ke options deta hai.
-
----
-
-##  Final Summary:
-
-* Database ek **organized collection** hota hai data ka, jise easily access aur retrieve kiya ja sake.
-* Isme data **tables** ke form mein hota hai (Relational DBs).
-* **Relational DBs** mein tables & keys hoti hain.
-* **NoSQL DBs** mein documents ya key-value form mein data hota hai.
-* Database ka kaam hai data ko secure, fast aur organized tarike se manage karna.
+It offers options to restore data in case of a disaster.
 
 ---
 
-# Database kya hota hai?
-
-Agar main ek simple analogy doon, toh samajh: **Database** ek digital locker ki tarah hota hai, jahan pe tum apna data safe and organized tareeke se store kar sakte ho. Jaise ek locker mein tum apne important documents ko rakhte ho, waise hi database mein tum apne data ko rakhte ho, taaki jab chaaho tab usse easily access kar sako.
-
----
-
-##  Database ka Definition:
-
-**Database** ek systematic collection hota hai data ka, jismein data ko store, manage, aur retrieve kiya jaata hai efficiently. Iska main purpose hota hai ki data ko securely store kiya jaaye aur easy access ho sake jab zaroorat ho.
-
----
-
-##  Real-Life Analogy:
-
-Socho, tumhare paas ek **library** hai, jismein kai saare books hain:
-
-* Agar tumhe ek specific book dhoondhni ho, toh library mein kuch organization hona chahiye.
-
-**Library = Database**
-**Books = Data**
-**Organized Sections = Tables, Rows, Columns (DBMS)**
-
-Jaise library mein books categorize hoti hain (title, author, genre ke basis pe), waise hi database mein data organize hota hai.
-
----
-
-##  Database ka Structure:
-
-###  Tables:
-
-Database ka basic structure **tables** hoti hain.
-
-###  Columns:
-
-Data ke specific attributes ko represent karte hain.
-**Example:** Name, Age, Roll No
-
-###  Rows:
-
-Har individual record ko represent karte hain.
-
-####  Example of Students Table:
-
-| Roll No | Name  | Age | Department |
-| ------- | ----- | --- | ---------- |
-| 101     | Anush | 20  | CSE        |
-| 102     | Priya | 22  | ECE        |
-| 103     | Amit  | 21  | IT         |
-
-###  Primary Key:
-
-Har table mein ek unique identifier hota hai, jise **Primary Key** kehte hain. Jaise upar Roll No.
-
-###  Foreign Key:
-
-Do tables ke beech relationship banane ke liye **Foreign Key** ka use hota hai. Jaise ek table mein students aur doosre mein courses ho.
-
----
-
-##  Types of Databases:
-
-### 1. **Relational Database (RDBMS):**
-
-* Data ko **tables** mein store karta hai.
-* **SQL (Structured Query Language)** ka use hota hai.
-* Examples: MySQL, PostgreSQL, Oracle
-
-### 2. **Non-Relational (NoSQL) Database:**
-
-* Structured tables ka use nahi karta.
-* Flexible & scalable hota hai.
-* Data ko documents ya key-value pairs ke form mein store karta hai.
-* Examples: MongoDB, CouchDB, Cassandra
-
----
-
-##  Why Database Important Hota Hai?
-
-###  Data Organization:
-
-Systematically data ko organize karta hai taaki access easy ho.
-
-###  Data Security:
-
-Access control, encryption aur authentication provide karta hai.
-
-###  Efficient Retrieval:
-
-Query ke through fast aur easy data access milta hai.
-
-###  Concurrency:
-
-Multiple users ek saath database ko access kar sakte hain bina data corrupt kiye.
-
-###  Backup & Recovery:
-
-Disaster ke case mein data restore karne ke options deta hai.
-
----
-
-##  Final Summary:
-
-* Database ek **organized collection** hota hai data ka, jise easily access aur retrieve kiya ja sake.
-* Isme data **tables** ke form mein hota hai (Relational DBs).
-* **Relational DBs** mein tables & keys hoti hain.
-* **NoSQL DBs** mein documents ya key-value form mein data hota hai.
-* Database ka kaam hai data ko secure, fast aur organized tarike se manage karna.
-
----
-
-# Database kya hota hai?
-
-Agar main ek simple analogy doon, toh samajh: **Database** ek digital locker ki tarah hota hai, jahan pe tum apna data safe and organized tareeke se store kar sakte ho. Jaise ek locker mein tum apne important documents ko rakhte ho, waise hi database mein tum apne data ko rakhte ho, taaki jab chaaho tab usse easily access kar sako.
-
----
-
-##  Database ka Definition:
-
-**Database** ek systematic collection hota hai data ka, jismein data ko store, manage, aur retrieve kiya jaata hai efficiently. Iska main purpose hota hai ki data ko securely store kiya jaaye aur easy access ho sake jab zaroorat ho.
-
----
-
-##  Real-Life Analogy:
-
-Socho, tumhare paas ek **library** hai, jismein kai saare books hain:
-
-* Agar tumhe ek specific book dhoondhni ho, toh library mein kuch organization hona chahiye.
-
-**Library = Database**
-**Books = Data**
-**Organized Sections = Tables, Rows, Columns (DBMS)**
-
-Jaise library mein books categorize hoti hain (title, author, genre ke basis pe), waise hi database mein data organize hota hai.
-
----
-
-##  Database ka Structure:
-
-###  Tables:
-
-Database ka basic structure **tables** hoti hain.
-
-###  Columns:
-
-Data ke specific attributes ko represent karte hain.
-**Example:** Name, Age, Roll No
-
-###  Rows:
-
-Har individual record ko represent karte hain.
-
-####  Example of Students Table:
-
-| Roll No | Name  | Age | Department |
-| ------- | ----- | --- | ---------- |
-| 101     | Anush | 20  | CSE        |
-| 102     | Priya | 22  | ECE        |
-| 103     | Amit  | 21  | IT         |
-
-###  Primary Key:
-
-Har table mein ek unique identifier hota hai, jise **Primary Key** kehte hain. Jaise upar Roll No.
-
-###  Foreign Key:
-
-Do tables ke beech relationship banane ke liye **Foreign Key** ka use hota hai. Jaise ek table mein students aur doosre mein courses ho.
-
----
-
-##  Types of Databases:
-
-### 1. **Relational Database (RDBMS):**
-
-* Data ko **tables** mein store karta hai.
-* **SQL (Structured Query Language)** ka use hota hai.
-* Examples: MySQL, PostgreSQL, Oracle
-
-### 2. **Non-Relational (NoSQL) Database:**
-
-* Structured tables ka use nahi karta.
-* Flexible & scalable hota hai.
-* Data ko documents ya key-value pairs ke form mein store karta hai.
-* Examples: MongoDB, CouchDB, Cassandra
-
----
-
-##  Why Database Important Hota Hai?
-
-###  Data Organization:
-
-Systematically data ko organize karta hai taaki access easy ho.
-
-###  Data Security:
-
-Access control, encryption aur authentication provide karta hai.
-
-###  Efficient Retrieval:
-
-Query ke through fast aur easy data access milta hai.
-
-###  Concurrency:
-
-Multiple users ek saath database ko access kar sakte hain bina data corrupt kiye.
-
-###  Backup & Recovery:
-
-Disaster ke case mein data restore karne ke options deta hai.
-
----
-
-##  Final Summary:
-
-* Database ek **organized collection** hota hai data ka, jise easily access aur retrieve kiya ja sake.
-* Isme data **tables** ke form mein hota hai (Relational DBs).
-* **Relational DBs** mein tables & keys hoti hain.
-* **NoSQL DBs** mein documents ya key-value form mein data hota hai.
-* Database ka kaam hai data ko secure, fast aur organized tarike se manage karna.
+## Final Summary:
+
+* A database is an **organized collection** of data that can be easily accessed and retrieved.
+* Data is stored in the form of **tables** in Relational Databases.
+* Relational Databases consist of tables and keys.
+* NoSQL Databases store data in the form of documents or key-value pairs.
+* The purpose of a database is to manage data in a secure, fast, and organized manner.
 
 ---
 
@@ -502,32 +282,26 @@ A **DBMS** is a software tool to manage databases efficiently. It helps in stori
 
 ---
 
-## DBMS vs File System
-
-DBMS (Database Management System) aur File System dono hi data ko store karne ke tareeke hain, lekin dono mein kaafi differences hote hain.
-
----
-
 ###  File System:
 
 **Definition:**
-File System ek traditional method hai jo data ko files ke form mein store karta hai. Hum jab bhi apne computer pe documents, images, ya koi bhi files store karte hain, toh hum file system ka use kar rahe hote hain.
+File System is a traditional method that stores data in the form of files. Whenever we save documents, images, or any other files on our computer, we are using the file system.
 
-**File System ka Kaam:**
+**Functions of File System:**
 
-* Simple aur direct tareeke se data ko files mein likhna aur disk pe save kar dena.
-* Folder-subfolder structure ka use karke data organize karta hai.
-* Data access manually hota hai, queries ka option nahi hota.
-* Advanced data searching aur management ke tools nahi hote.
+* Writes data simply and directly into files and saves them on the disk.
+* Organizes data using a folder-subfolder structure.
+* Data access is manual, and there is no option for queries.
+* Does not have advanced tools for data searching and management.
 
-**Example:**
-Computer ke "Reports" folder mein rakhe gaye documents jaise project\_report1.txt, report2.txt, etc.
+**Example:**  
+Documents stored in the computer’s "Reports" folder like project_report1.txt, report2.txt, etc.
 
 **Limitations:**
 
-* **Data Redundancy:** Duplicate files ki wajah se same data baar-baar store hota hai.
-* **Data Inconsistency:** Agar ek jagah data change karo toh manually sab jagah update karna padta hai.
-* **Security:** File-level access control basic hota hai, role-based access ka support nahi hota.
+* **Data Redundancy:** Same data gets stored multiple times because of duplicate files.  
+* **Data Inconsistency:** If data is changed in one place, it needs to be manually updated everywhere else.  
+* **Security:** File-level access control is basic and does not support role-based access.
 
 ---
 
