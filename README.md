@@ -73,7 +73,13 @@ A CS student documenting my learning journey here.
 **Goal:** Master DBMS deeply for internships, interviews (FAANG prep), and practical usage.  
 Let’s grow together! ✌️
 
-📬 Connect: [LinkedIn](https://www.linkedin.com/in/anush-kumar-mall-433547300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) 
+---
+
+##  Connect with Me
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/anush-kumar-mall)  
+- 📸 [Instagram](https://www.instagram.com/anushkumar13?igsh=NWc5a3VwbHN3bzZ0)  
+- ✉️ Email: mallanushkumar@gmail.com
 
 ---
 
